@@ -51,7 +51,7 @@ class Solution {
     }
     public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
         boolean[] visit = new  boolean[V];
-        boolean[] dfsvisit=new boolean[V];
+    
         ArrayList<Integer> ans= new ArrayList<>();
          
          for(int i=0;i<V;i++)
